@@ -1,0 +1,32 @@
+Scraping French Presidents Information from Wikipedia
+
+This PHP script uses Goutte to extract information about French presidents from the dedicated Wikipedia page. It retrieves the name, birth and death dates, as well as the start and end dates of each president's term.
+
+Prerequisites :
+
+Before running the script, make sure you have PHP installed on your machine. You will also need Composer to manage the project dependencies.
+
+Installation :
+
+Clone this repository to your machine.
+Run the composer install command to install the required dependencies.
+
+Usage :
+
+Modify the native.php file to specify the URL of the Wikipedia page containing the list of French presidents.
+Run the script by executing php native.php from your terminal, being in the src folder in the terminal.
+The information about the presidents will be extracted and displayed on the screen.
+
+Tests :
+
+This project comes with unit tests for the WikipediaPresidentScraperTest class. You can run the tests using PHPUnit by executing the following command from the project root:
+
+vendor\bin\phpunit.bat tests\WikipediaPresidentScraperTest.php
+
+Make sure you have executed the composer install command beforehand to install PHPUnit.
+
+License :
+
+This project is licensed under the MIT license. Please see the LICENSE file for more information.
+
+Feel free to customize this README to fit your project and its specificities.
