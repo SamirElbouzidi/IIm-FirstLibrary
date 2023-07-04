@@ -1,0 +1,19 @@
+{
+    "name": "samir/rendu",
+    "description": "First package",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Samir El Bouzidi",
+            "email": "samir.el_bouzidi@edu.devinci.fr"
+        }
+    ],
+    "require": {
+        "fabpot/goutte": "^4.0"
+    },
+    "require-dev": {
+        "phpstan/phpstan": "^1.10",
+        "phpunit/phpunit": "^10.2"
+    }
+}
